@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<h2> This is our high profile customer base </h2>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand">
+          </a>
+          <span class="navbar-brand">ng-py-mongo</span>
+      </div>
+      <ul class="nav navbar-nav">
+          <li class="active"><a routerLink="/list-customers" routerLinkActive="active">List Customers<span class="sr-only">(current)</span></a></li>
+          <li><a routerLink="/new-customer" routerLinkActive="active">Add Customer</a></li>
+      </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
